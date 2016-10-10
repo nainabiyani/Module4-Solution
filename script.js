@@ -70,9 +70,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
     for(var i=0; i<names.length; i++){
       var firstLetter = names[i].charAt(0);
         if(firstLetter.toLowerCase() == 'j')
-          window.byeSpeaker.speak(names[i]); 
+          byeSpeaker.speak(names[i]); 
         else
-          window.helloSpeaker.speak(names[i]);
+          helloSpeaker.speak(names[i]);
     }
 
 })();
